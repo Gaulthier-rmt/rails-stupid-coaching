@@ -1,0 +1,14 @@
+
+<div class="container">
+
+  <h1>Stupid Coaching</h1>
+
+  <h3>Ask your coach anything: </h3>
+
+  <div class="form">
+    <form action="/answer" data-turbo="false">
+      <input class="form-control mb-1" type="text" name="question" value="<%= params[:question] %>">
+      <input class="btn btn-primary" type="submit" value="Ask!">
+    </form>
+  </div>
+</div>
